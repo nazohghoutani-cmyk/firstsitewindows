@@ -6,21 +6,14 @@
     font-style: normal;
 
 }
-
-
-
-
-@font-face {
+/*@font-face {
     font-family: 'freightround_probook';
     src: url('fonts/freightroundprobook-webfont.woff2') format('woff2'),
          url('fonts/freightroundprobook-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
-}
-
-
-
+}*/
 
 @font-face {
     font-family: 'freightround_probold';
@@ -28,12 +21,13 @@
          url('fonts/freightroundprobold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
 
 body {
     max-width: 600px;
     margin: auto;
+    font-family: "Merriweather", serif;;
 }
 h1{
     font-family: "freightround_probold", Arial, sans-serif;
